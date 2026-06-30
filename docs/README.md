@@ -552,7 +552,7 @@ As imagens abaixo apresentam a montagem física do sistema SmokeGuard, incluindo
 - Pequeno 1 = Botão Ativar Sprinklers;
 - Pequeno 2 = Botão Estado de Atenção;
 - Pequeno 3 = Botão Estado Normal;
-- Branco    = Botão de Troca de Modo (Automático <-> Manual)
+- Branco    = Botão de Troca de Modo (Manual ↔ Automático)
 
 ![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/02.jpeg)
 - Da esquerda para a direita,:
