@@ -19,7 +19,6 @@ O projeto realiza o monitoramento de temperatura, umidade e presença de fumaça
 11. [Manual de operação](#manual-de-operação)
 12. [Testes e validação](#testes-e-validação)
 13. [Imagens do protótipo](#imagens-do-protótipo)
-14. [Segurança](#segurança)
 
 ## Acesso rápido
 
