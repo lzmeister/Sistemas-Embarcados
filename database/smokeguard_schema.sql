@@ -1,7 +1,6 @@
 -- SmokeGuard
 -- Projeto desenvolvido no IFSP - Campus Catanduva
 -- Estrutura do banco de dados sem registros e sem credenciais
--- Gerado a partir da estrutura ativa
 
 CREATE DATABASE IF NOT EXISTS `sistema_iot`
   CHARACTER SET utf8mb4
