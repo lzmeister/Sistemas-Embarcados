@@ -546,9 +546,9 @@ Os testes podem ser documentados com a seguinte tabela:
 
 A imagem abaixo apresenta a montagem física do sistema SmokeGuard, incluindo o ESP32, os sensores, os botões e os indicadores luminosos.
 
-![Protótipo completo do SmokeGuard](./images/01.jpg)
-![Protótipo completo do SmokeGuard](./images/02.jpg)
-![Protótipo completo do SmokeGuard](./images/03.jpg)
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/01.jpeg)
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/02.jpeg)
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/03.jpeg)
 
 ## Observações importantes
 
