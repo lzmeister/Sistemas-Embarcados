@@ -29,9 +29,9 @@ O arquivo `secrets.h` real não está incluído no repositório.
 
 Para utilizar o firmware:
 
-1. copie `secrets.example.h` para `secrets.h`;
-2. preencha as credenciais de Wi-Fi e MQTT;
-3. mantenha `secrets.h` fora do controle de versão;
+1. copie `secrets.example.h`;
+2. renomeie para `secrets.h`;
+3. preencha as credenciais de Wi-Fi e MQTT;
 4. compile e carregue o firmware pela Arduino IDE.
 
 ## Tópicos MQTT
