@@ -2,7 +2,7 @@
 
 Esta pasta reúne a documentação técnica e operacional do **SmokeGuard**, sistema IoT desenvolvido no **IFSP — Campus Catanduva** para monitoramento de temperatura, umidade e presença de fumaça.
 
-## AIFSP — Campus Catanduva** para monitoramento de temperatura, umidade e presença de fumaça.
+## IFSP — Campus Catanduva** para monitoramento de temperatura, umidade e presença de fumaça.
 
 ## Acesso rápido
 
