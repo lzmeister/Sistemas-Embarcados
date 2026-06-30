@@ -1,0 +1,39 @@
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+smokeguard_db.php
+config.php
+flows_cred.json
+.credentials.json
+*.pem
+*.key
+*.gpg
+
+# Backups e dados reais
+*.bak
+*.sql.gz
+backup_*.sql
+dump_*.sql
+log.txt
+*.log
+
+# Dependências e arquivos temporários
+node_modules/
+tmp/
+temp/
+.cache/
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credenciais do firmware ESP32
+secrets.h
+**/secrets.h
+
+# Segredo de criptografia do Node-RED
+.credential-secret
+**/.credential-secret
