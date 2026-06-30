@@ -166,8 +166,10 @@ A configuração real do banco de dados deve permanecer fora do repositório.
 
 ## Links do sistema
 
-- Aplicação web: https://embarcados.lzmeister.uk/
+- Página web Apache: https://embarcados.lzmeister.uk/
+- Aplicação web API: https://embarcados.lzmeister.uk/api.php
 - Node-RED: https://nodered.lzmeister.uk/
+- Dashboard: https://nodered.lzmeister.uk/ui
 
 ## Segurança
 
