@@ -550,6 +550,17 @@ A imagem abaixo apresenta a montagem física do sistema SmokeGuard, incluindo o 
 ![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/02.jpeg)
 ![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/03.jpeg)
 
+### Dashboard
+
+A imagem abaixo apresenta o Dashboard do projeto, contendo:
+- Ponteiros para cada medição;
+- Card indicativo com Status Real do Sistema definidos pelos parâmetros dos sensores
+- Botão para assumir modo manual/automático
+- Botões para alteração de status do sistema, quando em modo manual
+- Card indicativo com Status do Sistema assumido por botão pressionado, quando em modo manual
+
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/dashboard.jpeg)
+
 ## Observações importantes
 
 O SmokeGuard foi desenvolvido como protótipo acadêmico.
