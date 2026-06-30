@@ -6,14 +6,14 @@ O SmokeGuard utiliza um ESP32 para realizar a aquisição dos sensores, enviar i
 
 ## Acesso rápido
 
-- [Documentação técnica do projeto](./docs/README.md)
-- [Firmware do ESP32](./esp32/)
-- [Código principal do ESP32](./esp32/smokeguard_freertos_tcp_direto/smokeguard_freertos_tcp_direto.ino)
-- [Exemplo de configuração de credenciais](./esp32/smokeguard_freertos_tcp_direto/secrets.example.h)
-- [Fluxo do Node-RED](./node-red/flows.json)
-- [Aplicação web em PHP](./web/)
-- [API PHP](./web/api.php)
-- [Estrutura do banco de dados](./database/smokeguard_schema.sql)
+- [Documentação técnica](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/docs)
+- [Firmware do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/esp32)
+- [Código principal do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/smokeguard_freertos_tcp_direto.ino)
+- [Exemplo de configuração de credenciais](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/secrets.example.h)
+- [Fluxo do Node-RED](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/node-red/flows.json)
+- [Aplicação web em PHP](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/web)
+- [API PHP](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/web/api.php)
+- [Estrutura do banco de dados](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/database/smokeguard_schema.sql)
 
 ## Visão geral
 
@@ -180,7 +180,7 @@ SmokeGuard/
 
 O firmware principal está localizado em:
 
-[Firmware do ESP32](./esp32/)
+[Código principal do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/smokeguard_freertos_tcp_direto.ino)
 
 Para utilizar o firmware:
 
@@ -199,7 +199,7 @@ Para utilizar o firmware:
 
 O fluxo utilizado pelo sistema está disponível em:
 
-[Fluxo do Node-RED](./node-red/flows.json)
+[Fluxo do Node-RED](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/node-red/flows.json)
 
 Para utilizá-lo:
 
@@ -226,7 +226,7 @@ O Node-RED é responsável por:
 
 O script de criação da estrutura está disponível em:
 
-[Estrutura do banco de dados](./database/smokeguard_schema.sql)
+[Estrutura do banco de dados](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/database)
 
 O banco de dados utilizado pelo sistema é:
 
@@ -246,7 +246,7 @@ A tabela `leituras` armazena:
 
 Os arquivos da aplicação PHP estão localizados em:
 
-[API PHP](./web)
+[Aplicação web em PHP](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/web)
 
 A aplicação contém:
 
@@ -287,7 +287,7 @@ Os arquivos `.gitignore`, `secrets.example.h` e `smokeguard_db.example.php` fora
 
 ## Documentação complementar
 
-A pasta [`docs`](./docs/) reúne a documentação técnica e operacional do projeto.
+A pasta [docs](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/docs) reúne a documentação técnica e operacional do projeto.
 
 Ela receberá:
 
