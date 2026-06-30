@@ -6,7 +6,7 @@ O SmokeGuard utiliza um ESP32 para realizar a aquisição dos sensores, enviar i
 
 ## Acesso rápido
 
-- [Documentação técnica](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/docs)
+- [Documentação técnica](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/documentacao)
 - [Firmware do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/esp32)
 - [Código principal do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/smokeguard_freertos_tcp_direto.ino)
 - [Exemplo de configuração de credenciais](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/secrets.example.h)
@@ -285,7 +285,7 @@ Os arquivos `.gitignore`, `secrets.example.h` e `smokeguard_db.example.php` fora
 
 ## Documentação complementar
 
-A pasta [docs](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/docs) reúne a documentação técnica e operacional do projeto.
+A pasta [docs](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/documentacao) reúne a documentação técnica e operacional do projeto.
 
 Ela receberá:
 
