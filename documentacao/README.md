@@ -26,7 +26,7 @@ O projeto realiza o monitoramento de temperatura, umidade e presença de fumaça
 - [Firmware do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/esp32/smokeguard_freertos_tcp_direto)
 - [Código principal do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/smokeguard_freertos_tcp_direto.ino)
 - [Exemplo de credenciais](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/secrets.example.h)
-- [Fluxo do Node-RED](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/node-red/flows.json)
+- [Fluxo do Node-RED](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/node-red/flows_final.json)
 - [Aplicação web](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/web)
 - [API PHP](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/web/api.php)
 - [Estrutura do banco de dados](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/database/smokeguard_schema.sql)
