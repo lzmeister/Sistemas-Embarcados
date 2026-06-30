@@ -542,59 +542,6 @@ Os testes podem ser documentados com a seguinte tabela:
 
 ## Imagens do protótipo
 
-As imagens podem ser armazenadas dentro da pasta:
-
-```text
-docs/images/
-```
-
-Estrutura sugerida:
-
-```text
-docs/
-├── images/
-│   ├── prototipo-completo.jpg
-│   ├── esp32-sensores.jpg
-│   ├── leds-botoes.jpg
-│   ├── dashboard.png
-│   └── arquitetura.png
-└── README.md
-```
-
-Para inserir uma imagem no README:
-
-```markdown
-![Descrição da imagem](./images/nome-da-imagem.png)
-```
-
-Exemplo:
-
-```markdown
-## Protótipo montado
-
-![Protótipo do SmokeGuard](./images/prototipo-completo.jpg)
-```
-
-## Segurança
-
-O repositório não deve conter:
-
-- senha da rede Wi-Fi;
-- usuário e senha reais do MQTT;
-- credenciais do MySQL;
-- arquivo `secrets.h`;
-- arquivo de credenciais do Node-RED;
-- tokens do Cloudflare;
-- certificados privados;
-- chaves privadas;
-- arquivos de backup com dados reais.
-
-Devem ser publicados somente arquivos de exemplo:
-
-```text
-secrets.example.h
-smokeguard_db.example.php
-```
 
 ## Observações importantes
 
