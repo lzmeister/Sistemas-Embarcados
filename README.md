@@ -1,6 +1,6 @@
 # SmokeGuard
 
-Sistema IoT para monitoramento de temperatura, umidade e presença de fumaça, desenvolvido no **IFSP — Campus Catanduva**.
+Sistema IoT para monitoramento de temperatura, umidade e presença de fumaça desenvolvido no **IFSP — Campus Catanduva**.
 
 O SmokeGuard utiliza um ESP32 para realizar a aquisição dos sensores, enviar informações ao servidor e permitir o acionamento remoto dos indicadores luminosos por meio de MQTT.
 
@@ -9,15 +9,15 @@ O SmokeGuard utiliza um ESP32 para realizar a aquisição dos sensores, enviar i
 O sistema integra:
 
 - ESP32;
-- sensor DHT22;
-- sensor de fumaça MQ-2;
+- Sensor DHT22;
+- Sensor de fumaça MQ-2;
 - FreeRTOS;
-- protocolo MQTT;
+- Protocolo MQTT;
 - Node-RED;
 - Apache e PHP;
-- banco de dados MySQL;
+- Banco de dados MySQL;
 - Cloudflare Tunnel;
-- dashboard web para supervisão.
+- Dashboard web para supervisão e controle.
 
 ## Arquitetura
 
@@ -56,7 +56,7 @@ O ESP32 realiza as seguintes funções:
 - execução das tarefas com FreeRTOS;
 - publicação periódica dos dados por MQTT;
 - envio das leituras para a API PHP;
-- recebimento de comandos enviados pelo Node-RED;
+- recebimento de comandos enviados pelo Node-RED e por botões físicos;
 - confirmação dos estados aplicados;
 - operação nos modos manual e automático.
 
@@ -64,9 +64,10 @@ O ESP32 realiza as seguintes funções:
 
 Os LEDs físicos indicam o estado atual do sistema:
 
-- **verde:** operação normal;
-- **vermelho piscando:** alerta de fumaça ou possível incêndio;
-- **azul:** sistema de sprinklers acionado.
+- **verde contínuo:** operação normal;
+- **verde e vermelho alternante:** alerta de temperatura acima do limite ou umidade baixa;
+- **vermelho e azul alternante:** alerta de fumaça ou possível incêndio com acionamento de sprinklers;
+- **azul piscante:** sistema de sprinklers acionado.
 
 ## Tópicos MQTT
 
@@ -112,12 +113,11 @@ esp32/smokeguard_freertos_tcp_direto/
 Antes da compilação:
 
 1. copie `secrets.example.h` para `secrets.h`;
-2. preencha as credenciais de Wi-Fi e MQTT;
-3. mantenha o arquivo `secrets.h` fora do Git;
-4. compile o projeto pela Arduino IDE;
-5. envie o firmware ao ESP32.
+2. altere as credenciais de Wi-Fi e MQTT;
+3. compile o projeto;
+4. envie o firmware ao ESP32.
 
-O arquivo real de credenciais não faz parte deste repositório.
+**O arquivo real de credenciais não faz parte deste repositório.**
 
 ## Node-RED
 
@@ -162,8 +162,6 @@ web/
 
 O arquivo `smokeguard_db.example.php` contém somente valores de exemplo.
 
-A configuração real do banco de dados deve permanecer fora do repositório.
-
 ## Links do sistema
 
 - Página web Apache: https://embarcados.lzmeister.uk/
@@ -184,4 +182,4 @@ Este repositório não inclui:
 
 ## Instituição
 
-Projeto desenvolvido no **Instituto Federal de Educação, Ciência e Tecnologia de São Paulo — IFSP, Campus Catanduva**.
+Projeto desenvolvido para a disciplina de Sistemas Embarcados no **Instituto Federal de Educação, Ciência e Tecnologia de São Paulo — Campus Catanduva**.
