@@ -546,7 +546,7 @@ Os testes podem ser documentados com a seguinte tabela:
 
 As imagens abaixo apresentam a montagem física do sistema SmokeGuard, incluindo o ESP32, os sensores, os botões e os indicadores luminosos.
 
-![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/imagens/01.jpeg)
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/documentacao/imagens/01.jpeg)
 - Botões da esquerda para a direita:
 - Vermelho  = Botão de Estado de Alerta com Sprinklers Ativados;
 - Pequeno 1 = Botão Ativar Sprinklers;
@@ -554,7 +554,7 @@ As imagens abaixo apresentam a montagem física do sistema SmokeGuard, incluindo
 - Pequeno 3 = Botão Estado Normal;
 - Branco    = Botão de Troca de Modo (Manual ↔ Automático)
 
-![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/imagens/02.jpeg)
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/documentacao/imagens/02.jpeg)
 - Da esquerda para a direita,:
 - Sensor Esquerda = MQ-2 (Fumaça);
 - Sensor Branco = DHT-22 (Temperatura e Umidade);
@@ -571,7 +571,7 @@ A imagem abaixo apresenta o Dashboard do projeto, contendo:
 - Botões para alteração de status do sistema, quando em modo manual
 - Card indicativo com Status do Sistema assumido por botão pressionado, quando em modo manual
 
-![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/imagens/dashboard.jpg)
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/documentacao/imagens/dashboard.jpg)
 
 ## OBSERVAÇÕES IMPORTANTES
 
