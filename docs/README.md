@@ -559,7 +559,7 @@ A imagem abaixo apresenta o Dashboard do projeto, contendo:
 - Botões para alteração de status do sistema, quando em modo manual
 - Card indicativo com Status do Sistema assumido por botão pressionado, quando em modo manual
 
-![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/dashboard.jpeg)
+![Protótipo completo do SmokeGuard](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/docs/images/dashboard.jpg)
 
 ## Observações importantes
 
