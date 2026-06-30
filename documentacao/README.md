@@ -22,14 +22,14 @@ O projeto realiza o monitoramento de temperatura, umidade e presença de fumaça
 
 ## Acesso rápido
 
-- [README principal do projeto](../README.md)
-- [Firmware do ESP32](../esp32/)
-- [Código principal do ESP32](../esp32/smokeguard_freertos_tcp_direto/smokeguard_freertos_tcp_direto.ino)
-- [Exemplo de credenciais](../esp32/smokeguard_freertos_tcp_direto/secrets.example.h)
-- [Fluxo do Node-RED](../node-red/flows.json)
-- [Aplicação web](../web/)
-- [API PHP](../web/api.php)
-- [Estrutura do banco de dados](../database/smokeguard_schema.sql)
+- [README principal do projeto](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/Readme.md)
+- [Firmware do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/esp32/smokeguard_freertos_tcp_direto)
+- [Código principal do ESP32](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/smokeguard_freertos_tcp_direto.ino)
+- [Exemplo de credenciais](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/esp32/smokeguard_freertos_tcp_direto/secrets.example.h)
+- [Fluxo do Node-RED](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/node-red/flows.json)
+- [Aplicação web](https://github.com/lzmeister/Sistemas-Embarcados/tree/main/web)
+- [API PHP](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/web/api.php)
+- [Estrutura do banco de dados](https://github.com/lzmeister/Sistemas-Embarcados/blob/main/database/smokeguard_schema.sql)
 
 ## Arquitetura do sistema
 
